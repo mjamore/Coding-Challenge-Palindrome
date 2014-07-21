@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #00004B;
+	color: white;
+	font-family: 'Lucida Grande';
+}
+
+#wrapper {
+	margin: 20% auto;
+	max-width: 700px;
+	width: 80%;
+}
+
+#directions {
+	text-align: center;
+}
+
+form > input {
+	display: block;
+	margin: 50px auto;
+}
+
+form > input:focus {
+	outline-width: 0;
+}
+
+#user-input {
+	font-size: 150%;
+	padding: 10px;
+	width: 90%;
+	border-radius: 10px;
+}
+
+#check-btn {
+	margin: 25px auto;
+	background-color: #DD6100;
+	border-radius: 10px;
+	height: 60px;
+	width: 90%;
+	max-width: 300px;
+	border: none;
+	color: #FFF;
+	font-size: 190%;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#check-btn:hover {
+	cursor: pointer;
+}
+
+#output {
+	text-align: center;
+}
+
+.palindrome {
+	color: green;
+}
+
+.sorry {
+	color: red;
+}
+
+.green-check, .red-x {
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.green-check {
+	background-image: url("../images/green-check-30x30.png");
+}
+
+.red-x {
+	background-image: url("../images/red-x-30x30.png");
+}
+
+
+
+
+
+
+
+
+
+
+
